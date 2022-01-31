@@ -1,0 +1,42 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  height: 100vh;
+  background: #d6e2f0;
+}
+
+.card {
+  height: 500px;
+  width: 320px;
+  padding: 15px;
+  background: #ffffff;
+  border-radius: 15px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+.card .text {
+  text-align: center;
+}
+.card .text h2 {
+  color: #1f3251;
+  margin: 15px 0;
+}
+.card .text p {
+  font-size: 15px;
+  color: #7b879d;
+  padding: 0 15px;
+}
